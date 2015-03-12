@@ -9,7 +9,6 @@ import org.bukkit.inventory.meta.ItemMeta;
 
 public class Cocaine {
 	
-
 	public void addCocaine(Inventory inven) {
 		ItemStack cocaine = new ItemStack(Material.SUGAR);
 		ItemMeta cocaineMeta = cocaine.getItemMeta();
@@ -27,5 +26,4 @@ public class Cocaine {
 		return false;
 		}
 	}
-	
 }
