@@ -1,5 +1,9 @@
 package me.Jaidev2903.druggies;
 
-public class Commands {
+import org.bukkit.command.CommandExecutor;
 
+public class Commands extends Main implements CommandExecutor {
+
+	
+	
 }
