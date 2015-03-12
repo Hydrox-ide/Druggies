@@ -1,7 +1,7 @@
-package me.Jaidev2903.druggies;
+package me.Hydroxide.Druggies;
 
-import net.md_5.bungee.api.ChatColor;
 
+import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
@@ -19,8 +19,7 @@ public class Cocaine {
 	}
 	
 	public boolean hasCocaine(Inventory inven) {
-		ItemStack cocaine = new ItemStack(Material.SUGAR);
-		if(inven.contains(cocaine)) {
+		if(inven.contains(Material.SUGAR)) {
 			return true;
 		} else {
 		return false;
